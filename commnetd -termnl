@@ -1,0 +1,9 @@
+docker build -t gautham55/flask-app .
+  docker run -p 5000:5000 gautham55/flask-app
+  docker images
+  minikube start 
+   kubectl apply -f python-deployment.yaml
+    kubectl get pods
+     kubectl describe pod <pod-name>
+  
+  
